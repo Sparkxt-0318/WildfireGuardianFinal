@@ -1,0 +1,50 @@
+You are leading a WildfireGuardian fixed-route forecast-tolerance research experiment. Execute implementation and evaluation, not only a plan. Use independently owned subagents in waves within available concurrency: mathematics/implementation, independent checker, evaluation/prior-art. Do not modify concurrent or frozen work.
+
+Workspace: /Users/jp/Documents/Codex/2026-09-24/fu
+Output: outputs/route_forecast_tolerance_20261004_v1/ (fresh version if occupied).
+
+READ FIRST
+AGENTS.md, outputs/WildfireGuardian_Canonical_Context.md; outputs/creative_novelty_scout_20261004_claude_v1/OWNER_HANDOFF.md, lane_C_critic/CRITIC_REPORT.md, IMPLEMENTATION_PATH.md, lane_A_algorithms evidence; outputs/routing_specialized_research_20261003_v1/MATHEMATICAL_FOUNDATIONS.md and current delivery INTERFACE.md; outputs/mentor_github_handoff_20261004_v1/routing_handoff/docs/MENTOR_HANDOFF.md.
+Follow graph-first discovery and check coverage; read source where coverage is missing. Agents are not alone: assign separate files and never revert others' edits.
+
+QUESTION
+For a fixed checked road route and fixed traversal schedule, characterize the forecast perturbations under which all modeled admissibility conditions continue to hold. Produce a route-specific sensitivity output, not a new search algorithm or physical safety guarantee.
+
+PRIMARY CONTRACT
+Use the research HZ-1 arrival-shift model, with positive delta defined explicitly as earlier arrival: A'_m(c)=A_m(c)-delta. Keep burn residence, post-burn policy, flux model/parameters, support, graph, destination policy, member identity and route history fixed. Derive separate per-member feasible sets and their intersection. Report maximal connected admissible windows and their open/closed endpoints; do not reduce a disconnected set to a misleading single margin. The earlier/later tolerance is the boundary of the connected component containing zero. If zero is not certified admissible, report no certified baseline margin.
+
+Preserve directed-road/turn rules, waits, origin failure, actual position/time, cumulative incurred dose, horizon and destination dwell. The frozen research contract excludes dwell dose; preserve and disclose that primary policy. Test any including-dwell policy separately. Actual support/version validation remains mandatory.
+
+CRITICAL CORRECTIONS
+1. Arrival-time shift is not a change in rate of spread, nor forecast accuracy or a confidence interval.
+2. Fixed-route admissibility is not continued optimality. An update opening a distant shortcut must not retain an optimum certificate merely because the incumbent is feasible.
+3. Geometric-window endpoints plus delta=0 do NOT generally certify cumulative exposure throughout a window. Derive dose as a function of delta, identify every relevant breakpoint/interior maximum, or use a mathematically certified conservative bound. Attack with an interior-dose-peak counterexample. If only bounds are feasible, explicitly separate certified inner sets from exact sets.
+4. Uniform-shift results do not automatically certify arbitrary per-cell perturbation boxes. Correlated shifts and independent per-cell shifts are separate tracks. Defer boxes unless a full dose/geometry/support proof is established.
+5. Reject unhandled changes in residence, policy, flux, support, membership, graph, dwell, time origin and history. Earlier dose must not reset when members change. Unknown is not safe.
+6. Numeric precision: establish rounding/error handling, exact endpoint semantics and explicit abstention; never turn capped analysis into a certified margin.
+
+IMPLEMENTATION
+Create a standalone postprocessor over fixed route output; do not replace the planner. Support benchmark route objects first and add a narrow adapter for the delivered library's compatible inputs. Do not assume an arbitrary flux/flame payload has an identifiable arrival raster. For such payloads, define an explicit whole-field temporal-shift model or report unsupported. Mentor payload is absent; fixture-only status is mandatory.
+Output route/hazard/version hashes, perturbation definition, geometric windows, full dose-aware certified windows, limiting member/constraint, numeric/support status, model premises, runtime/memory and any abstention.
+
+TEAM AND PROOF
+Separate candidate author from reference-checker author. Derive flame/peak/wait/destination forbidden-shift intervals, dose behavior and intersection logic before claiming exactness. Test the claimed closed-form properties adversarially. Read primary trigger-buffer and robust-feasibility-radius papers before claiming a difference. Record full-text versus abstract access. No first-ever assertion based on no matching search result.
+
+TESTS
+- Reproduce W-SMALL's reported 159 routes and the slower-arrival/burnout examples with source hashes.
+- New independent tiny fixtures with direct or rational integration and independent interval checks.
+- Interior-dose peaks, equality at budgets, closed interval touches, waits, grid boundaries, multiple members, zero-leg routes, destination dwell and missing support.
+- Residence/policy/flux/support/member changes must be rejected or fully rechecked.
+- A distant shortcut update distinguishes feasibility from optimality.
+- Include both post-burn policies and disconnected windows.
+- Then freeze implementation/protocol/generator/analysis BEFORE fresh sealed W-MAIN evaluation. Existing W-SMALL and old W-MAIN research results are development evidence, not untouched confirmation. Use newly generated seeds with prescribed binding and nonbinding dose families, retain all failures and rejected generation rows.
+- If all-route evaluation is too expensive, freeze an outcome-blind selection and disclose counts; do not select success examples.
+
+PERFORMANCE
+Compare postprocessing plus required full dose checks to direct fixed-route rechecking and full replanning under the same semantics. Charge preprocessing, parsing, validation, updates, memory and failed attempts. Measure cold versus amortized costs separately. Run official timings through the existing exclusive lane. Report validity/coverage as well as speed. Do not claim a benefit merely because checking a fixed route is cheaper than solving a different optimization problem.
+No arbitrary disk cap. Use actual resource headroom and disclose limits. No coarsening without a separate labeled track.
+
+DELIVERABLES
+OWNER_HANDOFF.md, MATHEMATICS.md, PROTOCOL.md, NOVELTY_REVIEW.md, BENCHMARKS.md, REPRODUCE.md, raw outcomes/seeds/manifests and runnable postprocessor/reference checks. Include a mentor integration note and a plain-English explanation. Distinguish exact result, sufficient bound, unverified interval and unsupported update. Report no-go if full-dose support cannot be made sound.
+Aim for an initial checkpoint in 2 hours; continue the necessary bounded evaluation without concealing unfinished work. Do not add hardware/MoE/forecast training. No GitHub push/merge, credentials, protected records or deployment. The mentor owns forecasting.
+Update canonical context under its lock with evidence and limits. Finish with what can be reported, what failed and whether this deserves integration. No automatic adoption.

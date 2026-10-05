@@ -1,0 +1,3 @@
+# Third-party data and source notice
+
+The Nangok road fixture is derived from OpenStreetMap historical geometry. Attribution: © OpenStreetMap contributors. https://www.openstreetmap.org/copyright . OSM data are provided under ODbL 1.0: https://opendatacommons.org/licenses/odbl/1-0/ . The repository MIT license does not override ODbL data obligations or any upstream source terms. Hazards in the included fixture are generated, not observed fire truth. Preserve upstream attribution and manifest records when adapting the package. vendor/r3_sparse.py is a preserved historical project component, not promoted to the default. Historical literature attribution is retained in research documentation.

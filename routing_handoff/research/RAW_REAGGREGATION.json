@@ -1,0 +1,886 @@
+{
+  "timestamp_utc": "2026-10-04T04:51:21.180366+00:00",
+  "scope": "Independent aggregation and integrity audit of archived rows, not fresh execution or a new proof audit",
+  "manifest_checks": {
+    "delivery": {
+      "files": 1384,
+      "mismatches": []
+    },
+    "final_results": {
+      "files": 151,
+      "mismatches": []
+    }
+  },
+  "sets": {
+    "FINAL-ROAD_cold_A4": {
+      "AS-EAGER": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.6639075005077757,
+        "sum_s": 377.39003236650024,
+        "median_paired_ratio": 1.0,
+        "strict_faster": 0,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "None": 482
+        }
+      },
+      "AS-SUB:label_astar": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.6576660624705255,
+        "sum_s": 378.2476773659,
+        "median_paired_ratio": 1.0011450609785797,
+        "strict_faster": 233,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "None": 482
+        }
+      },
+      "CAND-QUERY:SCREEN": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.5667741255601868,
+        "sum_s": 312.1010235218564,
+        "median_paired_ratio": 0.9210614460632307,
+        "strict_faster": 332,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "A4-C2_ZERO_SCREEN": 289,
+          "PER_MEMBER_CHECK": 91,
+          "None": 102
+        }
+      },
+      "CAND-QUERY:CAND-2": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.5600260000210255,
+        "sum_s": 312.4022561860038,
+        "median_paired_ratio": 0.9216415705610218,
+        "strict_faster": 332,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "A4-C2_ZERO_SCREEN": 289,
+          "PER_MEMBER_CHECK": 91,
+          "None": 102
+        }
+      },
+      "CAND-QUERY:CAND-2+VEC": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.5711659374646842,
+        "sum_s": 312.630362697877,
+        "median_paired_ratio": 0.9230884271824911,
+        "strict_faster": 334,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "A4-C2_ZERO_SCREEN": 289,
+          "PER_MEMBER_CHECK": 91,
+          "None": 102
+        }
+      },
+      "CAND-QUERY:CAND-2+P1": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.5555850624805316,
+        "sum_s": 306.6673768584151,
+        "median_paired_ratio": 0.8992446100623464,
+        "strict_faster": 378,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "A4-C2_ZERO_SCREEN": 289,
+          "PER_MEMBER_CHECK": 91,
+          "None": 102
+        }
+      }
+    },
+    "FINAL-ROAD_cold_C3": {
+      "AS-EAGER": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.6568743755342439,
+        "sum_s": 379.8677482920466,
+        "median_paired_ratio": 1.0,
+        "strict_faster": 0,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "None": 482
+        }
+      },
+      "AS-SUB:A3-C3-r2": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.7864656664896756,
+        "sum_s": 437.877285287017,
+        "median_paired_ratio": 1.1892401592813013,
+        "strict_faster": 13,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "None": 482
+        }
+      }
+    },
+    "FINAL-ROAD_E100_cold_A4": {
+      "AS-EAGER": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.6366979790036567,
+        "sum_s": 367.7418094618479,
+        "median_paired_ratio": 1.0,
+        "strict_faster": 0,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "None": 482
+        }
+      },
+      "AS-SUB:label_astar": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.6360452289809473,
+        "sum_s": 366.31390629173256,
+        "median_paired_ratio": 0.9989276467443253,
+        "strict_faster": 257,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "None": 482
+        }
+      },
+      "CAND-QUERY:SCREEN": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.5467090414604172,
+        "sum_s": 301.8022365415236,
+        "median_paired_ratio": 0.9217260769217439,
+        "strict_faster": 331,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "A4-C2_ZERO_SCREEN": 289,
+          "PER_MEMBER_CHECK": 91,
+          "None": 102
+        }
+      },
+      "CAND-QUERY:CAND-2": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.5450310005107895,
+        "sum_s": 299.8889418472536,
+        "median_paired_ratio": 0.9243207232476941,
+        "strict_faster": 324,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "A4-C2_ZERO_SCREEN": 289,
+          "PER_MEMBER_CHECK": 91,
+          "None": 102
+        }
+      },
+      "CAND-QUERY:CAND-2+VEC": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.5477246879599988,
+        "sum_s": 299.8777706400724,
+        "median_paired_ratio": 0.9177497594204622,
+        "strict_faster": 330,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "A4-C2_ZERO_SCREEN": 289,
+          "PER_MEMBER_CHECK": 91,
+          "None": 102
+        }
+      }
+    },
+    "FINAL-ROAD_E200_cold_A4": {
+      "AS-EAGER": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.6494312915019691,
+        "sum_s": 380.4026797960978,
+        "median_paired_ratio": 1.0,
+        "strict_faster": 0,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "None": 482
+        }
+      },
+      "AS-SUB:label_astar": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.6633716664509848,
+        "sum_s": 380.9235629168106,
+        "median_paired_ratio": 0.9992768303683017,
+        "strict_faster": 246,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "None": 482
+        }
+      },
+      "CAND-QUERY:SCREEN": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.5715795214637183,
+        "sum_s": 312.6218913423363,
+        "median_paired_ratio": 0.919456094916889,
+        "strict_faster": 329,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "A4-C2_ZERO_SCREEN": 289,
+          "PER_MEMBER_CHECK": 91,
+          "None": 102
+        }
+      },
+      "CAND-QUERY:CAND-2": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.5663240830763243,
+        "sum_s": 312.54327075195033,
+        "median_paired_ratio": 0.9223356705564265,
+        "strict_faster": 330,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "A4-C2_ZERO_SCREEN": 289,
+          "PER_MEMBER_CHECK": 91,
+          "None": 102
+        }
+      },
+      "CAND-QUERY:CAND-2+VEC": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.5677621039212681,
+        "sum_s": 314.0990681156982,
+        "median_paired_ratio": 0.9235634785663691,
+        "strict_faster": 327,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "A4-C2_ZERO_SCREEN": 289,
+          "PER_MEMBER_CHECK": 91,
+          "None": 102
+        }
+      }
+    },
+    "FINAL-ROAD_warm_A4": {
+      "AS-EAGER": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.07420129200909287,
+        "sum_s": 83.80200196558144,
+        "median_paired_ratio": 1.0,
+        "strict_faster": 0,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "None": 482
+        }
+      },
+      "AS-SUB:label_astar": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.07452133350307122,
+        "sum_s": 84.74759775062557,
+        "median_paired_ratio": 1.0041774890686512,
+        "strict_faster": 226,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "None": 482
+        }
+      },
+      "CAND-QUERY:SCREEN": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.020427124516572803,
+        "sum_s": 38.25478794728406,
+        "median_paired_ratio": 0.2835778885570762,
+        "strict_faster": 303,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "A4-C2_ZERO_SCREEN": 289,
+          "PER_MEMBER_CHECK": 91,
+          "None": 102
+        }
+      },
+      "CAND-QUERY:CAND-2": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.020435666490811855,
+        "sum_s": 38.592556496034376,
+        "median_paired_ratio": 0.2860913827827659,
+        "strict_faster": 307,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "A4-C2_ZERO_SCREEN": 289,
+          "PER_MEMBER_CHECK": 91,
+          "None": 102
+        }
+      },
+      "CAND-QUERY:CAND-2+VEC": {
+        "n": 482,
+        "statuses": {
+          "ROUTE": 380,
+          "REFUSED_PROVEN": 102
+        },
+        "median_s": 0.020474333490710706,
+        "sum_s": 38.19040603854228,
+        "median_paired_ratio": 0.29405970786859076,
+        "strict_faster": 305,
+        "activation_hist": {
+          "0": 482
+        },
+        "route_zero_dose": 291,
+        "route_positive_dose": 89,
+        "maximum_route_dose": 92.86465490709145,
+        "verification_mechanisms": {
+          "A4-C2_ZERO_SCREEN": 289,
+          "PER_MEMBER_CHECK": 91,
+          "None": 102
+        }
+      }
+    },
+    "FINAL-SYNTH-TINY_cold_A4": {
+      "AS-EAGER": {
+        "n": 168,
+        "statuses": {
+          "REFUSED_PROVEN": 39,
+          "ROUTE": 129
+        },
+        "median_s": 0.001967416435945779,
+        "sum_s": 0.43441992346197367,
+        "median_paired_ratio": 1.0,
+        "strict_faster": 0,
+        "activation_hist": {
+          "0": 133,
+          "1": 19,
+          "2": 5,
+          "3": 5,
+          "4": 3,
+          "5": 3
+        },
+        "route_zero_dose": 66,
+        "route_positive_dose": 63,
+        "maximum_route_dose": 600.0,
+        "verification_mechanisms": {
+          "None": 168
+        }
+      },
+      "AS-SUB:label_astar": {
+        "n": 168,
+        "statuses": {
+          "REFUSED_PROVEN": 39,
+          "ROUTE": 129
+        },
+        "median_s": 0.00304372952086851,
+        "sum_s": 0.6870286650955677,
+        "median_paired_ratio": 1.541605487754817,
+        "strict_faster": 16,
+        "activation_hist": {
+          "0": 131,
+          "1": 20,
+          "2": 6,
+          "3": 5,
+          "4": 3,
+          "5": 3
+        },
+        "route_zero_dose": 62,
+        "route_positive_dose": 67,
+        "maximum_route_dose": 600.0,
+        "verification_mechanisms": {
+          "None": 168
+        }
+      },
+      "FULL:label_astar": {
+        "n": 168,
+        "statuses": {
+          "REFUSED_PROVEN": 39,
+          "ROUTE": 129
+        },
+        "median_s": 0.0034400210133753717,
+        "sum_s": 0.9465911242878065,
+        "median_paired_ratio": 1.8553354738004768,
+        "strict_faster": 19,
+        "activation_hist": {
+          "8": 32,
+          "2": 48,
+          "4": 36,
+          "1": 36,
+          "6": 3,
+          "5": 3,
+          "3": 10
+        },
+        "route_zero_dose": 67,
+        "route_positive_dose": 62,
+        "maximum_route_dose": 585.0,
+        "verification_mechanisms": {
+          "None": 168
+        }
+      },
+      "FULL:label_dijkstra": {
+        "n": 168,
+        "statuses": {
+          "REFUSED_PROVEN": 39,
+          "ROUTE": 129
+        },
+        "median_s": 0.003601707983762026,
+        "sum_s": 1.0113257023040205,
+        "median_paired_ratio": 1.9635597642517624,
+        "strict_faster": 20,
+        "activation_hist": {
+          "8": 32,
+          "2": 48,
+          "4": 36,
+          "1": 36,
+          "6": 3,
+          "5": 3,
+          "3": 10
+        },
+        "route_zero_dose": 67,
+        "route_positive_dose": 62,
+        "maximum_route_dose": 382.5,
+        "verification_mechanisms": {
+          "None": 168
+        }
+      },
+      "CAND-QUERY:SCREEN": {
+        "n": 168,
+        "statuses": {
+          "REFUSED_PROVEN": 39,
+          "ROUTE": 129
+        },
+        "median_s": 0.006666457979008555,
+        "sum_s": 1.2361417978536338,
+        "median_paired_ratio": 3.4264195380116087,
+        "strict_faster": 0,
+        "activation_hist": {
+          "0": 133,
+          "1": 19,
+          "2": 5,
+          "3": 5,
+          "4": 3,
+          "5": 3
+        },
+        "route_zero_dose": 66,
+        "route_positive_dose": 63,
+        "maximum_route_dose": 600.0,
+        "verification_mechanisms": {
+          "None": 30,
+          "PER_MEMBER_CHECK": 138
+        }
+      },
+      "CAND-QUERY:CAND-2": {
+        "n": 168,
+        "statuses": {
+          "REFUSED_PROVEN": 39,
+          "ROUTE": 129
+        },
+        "median_s": 0.0067914375104010105,
+        "sum_s": 1.6216462504817173,
+        "median_paired_ratio": 3.6482675070667083,
+        "strict_faster": 0,
+        "activation_hist": {
+          "0": 133,
+          "1": 19,
+          "2": 5,
+          "3": 5,
+          "4": 3,
+          "5": 3
+        },
+        "route_zero_dose": 66,
+        "route_positive_dose": 63,
+        "maximum_route_dose": 600.0,
+        "verification_mechanisms": {
+          "None": 30,
+          "PER_MEMBER_CHECK": 138
+        }
+      },
+      "CAND-QUERY:CAND-2+VEC": {
+        "n": 168,
+        "statuses": {
+          "REFUSED_PROVEN": 39,
+          "ROUTE": 129
+        },
+        "median_s": 0.006753520981874317,
+        "sum_s": 2.1204525402281433,
+        "median_paired_ratio": 3.8640215072116613,
+        "strict_faster": 0,
+        "activation_hist": {
+          "0": 133,
+          "1": 19,
+          "2": 6,
+          "3": 4,
+          "4": 3,
+          "5": 3
+        },
+        "route_zero_dose": 66,
+        "route_positive_dose": 63,
+        "maximum_route_dose": 600.0,
+        "verification_mechanisms": {
+          "None": 30,
+          "PER_MEMBER_CHECK": 138
+        }
+      }
+    },
+    "FINAL-SYNTH-MEDIUM_cold_A4": {
+      "AS-EAGER": {
+        "n": 36,
+        "statuses": {
+          "REFUSED_PROVEN": 12,
+          "ROUTE": 24
+        },
+        "median_s": 0.007318354037124664,
+        "sum_s": 0.5748224590206519,
+        "median_paired_ratio": 1.0,
+        "strict_faster": 0,
+        "activation_hist": {
+          "0": 29,
+          "1": 4,
+          "2": 2,
+          "3": 1
+        },
+        "route_zero_dose": 6,
+        "route_positive_dose": 18,
+        "maximum_route_dose": 697.5,
+        "verification_mechanisms": {
+          "None": 36
+        }
+      },
+      "AS-SUB:label_astar": {
+        "n": 36,
+        "statuses": {
+          "REFUSED_PROVEN": 12,
+          "ROUTE": 24
+        },
+        "median_s": 0.008227083017118275,
+        "sum_s": 1.1459709226619452,
+        "median_paired_ratio": 1.0490909187823019,
+        "strict_faster": 10,
+        "activation_hist": {
+          "0": 25,
+          "2": 3,
+          "1": 7,
+          "3": 1
+        },
+        "route_zero_dose": 6,
+        "route_positive_dose": 18,
+        "maximum_route_dose": 562.5,
+        "verification_mechanisms": {
+          "None": 36
+        }
+      },
+      "FULL:label_astar": {
+        "n": 36,
+        "statuses": {
+          "REFUSED_PROVEN": 12,
+          "ROUTE": 23,
+          "UNRESOLVED:WALL_CLOCK": 1
+        },
+        "median_s": 0.016898583504371345,
+        "sum_s": 92.92629129311536,
+        "median_paired_ratio": 1.8855091681714007,
+        "strict_faster": 3,
+        "activation_hist": {
+          "4": 8,
+          "8": 7,
+          "30": 8,
+          "2": 10,
+          "16": 3
+        },
+        "route_zero_dose": 6,
+        "route_positive_dose": 17,
+        "maximum_route_dose": 525.0,
+        "verification_mechanisms": {
+          "None": 36
+        }
+      },
+      "FULL:label_dijkstra": {
+        "n": 36,
+        "statuses": {
+          "REFUSED_PROVEN": 12,
+          "ROUTE": 23,
+          "UNRESOLVED:WALL_CLOCK": 1
+        },
+        "median_s": 0.032410291489213705,
+        "sum_s": 122.89435658499133,
+        "median_paired_ratio": 3.611371302800938,
+        "strict_faster": 1,
+        "activation_hist": {
+          "4": 8,
+          "8": 7,
+          "30": 8,
+          "2": 10,
+          "16": 3
+        },
+        "route_zero_dose": 6,
+        "route_positive_dose": 17,
+        "maximum_route_dose": 487.5,
+        "verification_mechanisms": {
+          "None": 36
+        }
+      },
+      "CAND-QUERY:SCREEN": {
+        "n": 36,
+        "statuses": {
+          "REFUSED_PROVEN": 12,
+          "ROUTE": 24
+        },
+        "median_s": 0.01260012446437031,
+        "sum_s": 0.763576457859017,
+        "median_paired_ratio": 1.6419657088296384,
+        "strict_faster": 0,
+        "activation_hist": {
+          "0": 29,
+          "1": 4,
+          "2": 2,
+          "3": 1
+        },
+        "route_zero_dose": 6,
+        "route_positive_dose": 18,
+        "maximum_route_dose": 817.5,
+        "verification_mechanisms": {
+          "None": 11,
+          "PER_MEMBER_CHECK": 25
+        }
+      },
+      "CAND-QUERY:CAND-2": {
+        "n": 36,
+        "statuses": {
+          "REFUSED_PROVEN": 12,
+          "ROUTE": 24
+        },
+        "median_s": 0.01256854145321995,
+        "sum_s": 1.126617250032723,
+        "median_paired_ratio": 1.8106664880073255,
+        "strict_faster": 0,
+        "activation_hist": {
+          "0": 29,
+          "1": 5,
+          "4": 1,
+          "2": 1
+        },
+        "route_zero_dose": 6,
+        "route_positive_dose": 18,
+        "maximum_route_dose": 817.5,
+        "verification_mechanisms": {
+          "None": 11,
+          "PER_MEMBER_CHECK": 25
+        }
+      },
+      "CAND-QUERY:CAND-2+VEC": {
+        "n": 36,
+        "statuses": {
+          "REFUSED_PROVEN": 12,
+          "ROUTE": 24
+        },
+        "median_s": 0.012421332998201251,
+        "sum_s": 2.2016356656095013,
+        "median_paired_ratio": 1.792583580220156,
+        "strict_faster": 0,
+        "activation_hist": {
+          "0": 29,
+          "1": 5,
+          "5": 1,
+          "2": 1
+        },
+        "route_zero_dose": 6,
+        "route_positive_dose": 18,
+        "maximum_route_dose": 817.5,
+        "verification_mechanisms": {
+          "None": 11,
+          "PER_MEMBER_CHECK": 25
+        }
+      }
+    }
+  },
+  "audits": {
+    "FINAL-ROAD_cold_A4": {
+      "rows": 2892,
+      "verdicts": {
+        "OPTIMALITY_INDEPENDENTLY_CERTIFIED_BY_RELAXATION": 2280,
+        "CERTIFIED_BY_INDEPENDENT_RELAXATION": 516,
+        "CERTIFIED_INFEASIBLE_AT_ISSUE": 78,
+        "CERTIFIED_DISCONNECTED": 18
+      },
+      "bad_route_audit_rows": 0
+    },
+    "FINAL-ROAD_cold_C3": {
+      "rows": 964,
+      "verdicts": {
+        "OPTIMALITY_INDEPENDENTLY_CERTIFIED_BY_RELAXATION": 760,
+        "CERTIFIED_BY_INDEPENDENT_RELAXATION": 172,
+        "CERTIFIED_INFEASIBLE_AT_ISSUE": 26,
+        "CERTIFIED_DISCONNECTED": 6
+      },
+      "bad_route_audit_rows": 0
+    }
+  }
+}
